@@ -171,12 +171,13 @@
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 30px;
 }
 .blank-div{
     padding: 50px 100px;
     background-color: antiquewhite;
     width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     border-radius: 2px;
     text-align: center;
 }
@@ -194,4 +195,13 @@
     font-weight: 300;
     border: 0;
     border-radius: 0px;
+}
+
+footer{
+    background: black;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
