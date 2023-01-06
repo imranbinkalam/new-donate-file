@@ -102,7 +102,6 @@
 .content .content-item .div-item{
     width: 300px;
     padding: 20px;
-    border: 1px solid black;
     border-radius: 5px;
 }
 .div-item h3{
@@ -113,6 +112,86 @@
     font-size: 18px;
     color: #757575;
 }
-#1st-item{
-    background-color: yellow;
+.content-item .blue-class{
+    background-color: rgb(226, 246, 246);
+}
+.content-item .pink-class{
+    background-color: rgb(255, 226, 230);
+}
+.content-item .light-class{
+    background-color: bisque;
+}
+/* Blog-section */
+.blog-section{
+    display: flex;
+    margin: 100px 50px;
+    gap: 55px;
+    justify-content: center;
+    align-content: center;
+}
+.blog-section .article{
+    width: 500px;
+}
+.blog-section h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.blog-section .l-1{
+    color: #757575;
+    margin-bottom: 15px;
+}
+.blog-section .l-2{
+    color: #757575;
+    margin-bottom: 20px;
+}
+.blog-section .primary-btn button{
+    padding: 15px 20px;
+    background-color:  #ff3a3a;
+    color: #fff;
+    display: inline;
+    margin: 0 auto 100px;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+.blog-section .img-item img{
+    width: 500px;
+    border-radius: 5px;
+}
+.last-con h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.last-con p{
+    width: 600px;
+    color: #757575;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.blank-div{
+    padding: 50px 100px;
+    background-color: antiquewhite;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 2px;
+    text-align: center;
+}
+.blank-div input{
+    padding: 20px;
+    border: 0;
+    width: 250px;
+}
+.blank-div button{
+    padding: 15px 20px;
+    background-color:  #ff3a3a;
+    color: #fff;
+    display: inline;
+    font-size: 22px;
+    font-weight: 300;
+    border: 0;
+    border-radius: 0px;
 }
